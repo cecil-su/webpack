@@ -1,2 +1,2 @@
-#tempalte
+# tempalte
 use webpack create html

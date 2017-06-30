@@ -4,7 +4,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init cecil-su/webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev

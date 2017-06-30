@@ -11,6 +11,7 @@ const server = new devServer(compiler, {
   contentBase: 'dist',
   compress: true,
   inline: true,
+  quiet: true,
   stats: {
     colors: true
   }

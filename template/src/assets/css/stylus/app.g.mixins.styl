@@ -1,0 +1,61 @@
+/* prefix */
+prefix = u
+/* background */
+b(o = none, f = null)
+  f == 'i' ? i = !important : i = null
+  background o i
+b-c(a = #fff, f = null)
+  f == 'i' ? i = !important : i = null
+  background-color a i
+b-i(a = none, f = null)
+  f == 'i' ? i = !important : i = null
+  background-image url(a) i
+b-p(a = 0, b = 0, f = null)
+  f == 'i' ? i = !important : i = null
+  background-position a b i
+b-r(t = false, f = null)
+  f == 'i' ? i = !important : i = null
+  if (t)
+    background-repeat repeat i
+  else 
+    background-repeat no-repeat i
+/* border */
+bd(a = 1px solid #fff, f = null)
+  f == 'i' ? i = !important : i = null
+  border a
+bd-c(a, f = null)
+  f == 'i' ? i = !important : i = null
+  border-color a i
+bd-s(a, f = null)
+  f == 'i' ? i = !important : i = null
+  border-style a i
+bd-w(a, f = null)
+  f == 'i' ? i = !important : i = null
+  border-width a i
+/* color */
+c(o = #333, f = null)
+  f == 'i' ? i = !important : i = null
+  color o i
+/* width */
+w(w = 100%, f = null, t = false)
+  f ? i = !important : i = null
+  if (t)
+    min-width w i
+  else
+    width w i
+/* height */  
+h(h = 100%, f = null, t = false)
+  f == 'i' ? i = !important : i = null
+  if (t) 
+    min-height h i
+  else 
+    height h i
+/* position */
+pos(o, f = null)
+  f == 'i' ? i = !important : i = null
+  position o i
+/* display */
+dis(o, f = null)
+  f == 'i' ? i = !important : i = null
+  display o i
+
